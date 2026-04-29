@@ -49,31 +49,4 @@ python drafter.py
 
 You'll be prompted to describe what you'd like to draft. The agent will generate the document, and you can iteratively refine it. When you're satisfied, ask the agent to **save** and the file will be written to disk.
 
----
 
-## Example Session
-
-```
- Drafter Agent Started!
-
-What would you like to draft? Write a leave notification email for April 30th
-
-AI: I'll draft that for you.
-Tool call: update({"content": "Subject: Leave Notification ..."})
-Tool Result: Document updated successfully!
-
-What would you like to do with the document? Make the tone more formal
-
-AI: Sure, here's the updated version.
-Tool call: update({"content": "Subject: Leave Notification ..."})
-Tool Result: Document updated successfully!
-
-What would you like to do with the document? Save it as leave_notification
-
-Tool call: save({"filename": "leave_notification"})
-Document is saved to leave_notification.txt
-
- Drafter Agent Finished!
-```
-
----
