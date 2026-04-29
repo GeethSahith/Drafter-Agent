@@ -25,7 +25,7 @@ Drafter runs as a **stateful LangGraph agent** that follows a cyclic workflow:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
